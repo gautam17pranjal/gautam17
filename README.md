@@ -1,2 +1,2 @@
-# gautam17.github.io
-Personal Website
+# mywebsite
+My webpage
