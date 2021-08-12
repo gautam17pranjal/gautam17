@@ -1,0 +1,33 @@
+.header{
+    background-color: #eae9e9;   /* #f4f4f4; */
+    padding: 20px 0px;
+}
+.name{
+    background-color: white;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+.header-title{
+    padding: 20px 0px 10px 10% !important;
+}
+.topbar{
+    padding: 20px 10% 10px 10% !important;
+}
+.topbar a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    padding: 10px 10px !important;
+    transition:  background-color 0.5s ease 0s;
+}
+.topbar a:hover{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    background-color: white;
+}
+.current{
+    font-weight: 700;
+}
+.pg-title{
+    font-size: 20px;
+    line-height: 40px;
+}

@@ -1,0 +1,27 @@
+/* contact section */
+.contact{
+    background-color: #eae9e9;
+    padding: 70px 0px;
+    font-size: 30px;
+}
+.touch{
+    background-color: white;
+    padding: 0px 10px;
+    font-weight: 700;
+}
+.insta img{
+    width: 30px;
+    height: auto;
+}
+.git{
+    color: black;
+}
+.linkedin{
+    color: #0177b5;
+}
+.fb{
+    color: #4867aa;
+}
+.mail{
+    color: #d54c3d;
+}

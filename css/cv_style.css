@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+}
+body, .container-fluid, .row{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+div[class^="col-"]{
+    padding: 0px;
+}
+/* main sec */
+.main{
+    padding: 40px 0px !important;
+    font-size: 70px;
+    font-weight: 700;
+}
+.cv{
+    padding: 0px 10% !important;
+}
+.bg-me{
+    height: 100px;
+    width: 50%;
+    background-color: #CBD4C2;
+    position: relative;
+    top: -55px;
+    z-index: -100;
+}
+/* intro sec */
+.intro{
+    padding: 0px 20% 30px 20%;
+    line-height: 40px;
+}
+.summary{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+.intro-info{
+    padding: 30px 0px 10px 0px!important;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+.intro-info a{
+    text-decoration: none;
+    background-color: #eae9e9;
+    color: black;
+    padding: 10px 50px;
+    transition:  background-color 0.3s ease 0s;
+}
+.intro-info a:hover{
+    text-decoration: none;
+    background-color: #595959;
+    color: #eae9e9;
+    padding: 10px 50px;
+}
+/* skills secc */
+.title-right{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 40px 10% !important;
+    font-family: 'Roboto', sans-serif;
+}
+.bg-me-right{
+    height: 100px;
+    width: 50%;
+    background-color: #CBD4C2;
+    float: right;
+    position: relative;
+    top: -70px;
+    right: 0;
+    z-index: -100;
+}
+.skills-info{
+    padding: 0px 20% 20px 20% !important;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+.skill{
+    font-size: 20px;
+    padding: 10px;
+}
+/* work exp sec  +  edu sec*/
+.title-left{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 40px 10% !important;
+    font-family: 'Roboto', sans-serif;
+}
+.bg-me-left{
+    height: 100px;
+    width: 50%;
+    background-color: #CBD4C2;
+    position: relative;
+    top: -70px;
+    right: 0;
+    z-index: -100;
+}
+.bg-me-left:hover{
+    transition: 1s linear;
+    top: 0px;
+}
+.work-details{
+    padding: 0px 20% 0px 20% !important;
+}
+.work, .edu{
+    padding: 20px 0px;
+}
+.date{
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+    color: #595959;
+}
+.company{
+    font-size: 20px;
+    font-weight: bold;
+}
+.role{
+    font-size: 17px;
+    font-style: italic;
+}
+.work-info{
+    padding: 10px 0px !important;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.info-pts{
+    padding: 10px 0px !important;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+.info-pts-tools{
+    font-family: 'Nunito', sans-serif;
+}
+.winfo-title{
+    font-weight: 600;
+    padding: 10px 0px 0px 0px!important;
+}
+/* projects sec */
+.proj-details{
+    padding: 0px 20% 10px 20% !important;
+    text-align: justify;
+}
+.subject{
+    font-size: 20px;
+    font-weight: bold;
+}
+.proj{
+    padding: 10px 0px !important;
+}
+.proj p{
+    padding: 10px 0px !important;
+    line-height: 34px;
+    font-family: 'Nunito', sans-serif;
+}
+.link{
+    text-decoration: none;
+    background-color: #eae9e9;
+    color: black;
+    padding: 10px 50px;
+    transition:  background-color 0.5s ease 0s;
+}
+.link:hover{
+    text-decoration: none;
+    background-color: black;
+    color: #eae9e9;
+}
+/* hobby sec */
+.hob{
+    font-weight: 300 !important;
+}
+.hobby-details{
+    padding: 0px 20% 70px 20% !important;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.hobby-details ul{
+    padding: 0px !important;
+}
+.hobby-topic{
+    font-weight: 600;
+}
+@media (max-width: 768px){
+    .intro, .skills-info, .work-details, .proj-details, .hobby-details{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .bg-me-left, .bg-me-right{
+        width: 70%;
+    }
+}
+@media (max-width: 576px){
+    .intro-info, .skills-info, .work-details, .proj-details, .hobby-details{
+        text-align: left;
+    }
+    .bg-me-left, .bg-me-right{
+        width: 100%;
+    } 
+}
+
